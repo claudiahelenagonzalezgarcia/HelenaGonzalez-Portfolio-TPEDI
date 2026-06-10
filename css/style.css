@@ -76,15 +76,17 @@ main {
 
 }
 .galeriaproyectos a {
-    display: block;
     text-align: center;
     text-decoration: none;
     color: black;
-    font-weight: 500;
     font-size: 20px;
     transition: all 0.3s ease;
 }
-h3:hover {
+
+h3{
+    font-weight: 100;
+}
+h3:hover {;
     color: rgb(170, 0, 0);
 
 }
@@ -93,7 +95,15 @@ h3:hover {
     width: 100%;
     height: auto;
     box-shadow: 0 15px 12px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+
 }
+
+.galeriaproyectos img:hover{
+    width: 105%;    
+}
+
+
 .contacto {
     padding: 20px 20px;
 }
@@ -108,7 +118,7 @@ h3:hover {
 .contacto a {
     color: rgb(170, 0, 0);
     text-decoration: none;
-    transition: all 1s ease;
+    transition: 1s;
 }
 .contacto a:hover {
     color: rgb(68, 0, 0);
@@ -126,20 +136,36 @@ footer p {
     font-size: 14px;
 }
 
+@media (max-width:767px){
+    h1{
+        font-size: 28px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+ }
+
 @media (min-width:768px){
-    .galeriaproyectos{
+    h1{
+        font-size: 40px;
+    }
+       .galeriaproyectos{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .galeriaproyectos a{
         width: 45%;
     }
 }
 
 @media (min-width: 1024px) {
+    h1{
+        font-size: 60px;
+    }
     .galeriaproyectos a{
             width: 20%;
     }
-    
 }
