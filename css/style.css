@@ -61,11 +61,53 @@ main {
    max-width: 250px;
     height: auto;
 }
-
+.proyectos {
+    padding: 20px 20px;
+}
 .proyectos h2 {
     padding-top: 100px;
     text-align: center;
 }
 .galeriaproyectos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
+}
+.galeriaproyectos a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+h3:hover {
+    color: rgb(170, 0, 0);
+    transition: all 0.3s ease;
+}
+
+.galeriaproyectos img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+.contacto {
+    padding: 20px 20px;
+}
+.contacto h2 {
+    padding-top: 100px;
+    text-align: center;
+}
+.contacto p {
+    text-align: center;
+    font-size: 18px;
+}
+.contacto a {
+    color: rgb(170, 0, 0);
+    text-decoration: none;
+    transition: all 1s ease;
+}
+.contacto a:hover {
+    color: rgb(68, 0, 0);
 }
