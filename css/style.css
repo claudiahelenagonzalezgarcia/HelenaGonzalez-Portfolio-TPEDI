@@ -1,4 +1,28 @@
 body {
+    margin: 0;
     font-family: 'helvetica neue', sans-serif;
-    
+}
+
+header nav {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;   
+}
+ header nav a {
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    font-style: italic;
+    color: rgb(170, 0, 0);
+    transition: all 0.3s ease;
 }
