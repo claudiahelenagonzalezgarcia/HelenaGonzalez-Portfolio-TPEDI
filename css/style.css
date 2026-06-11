@@ -123,26 +123,6 @@ main {
     transition: all 0.3s ease;
 }
 
-.carrusel {
-    width: 80%;
-    max-width: 900px;
-    margin: 40px auto;
-
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.carrusel img{
-    width: 100%;
-    height: auto;
-    transition: all 0.3s ease;
-}
-
-.carrusel img:hover{
-    transform: scale(1.05);
-}
-
 h3{
     font-weight: 100;
 }
